@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.login-box {
+  margin: auto;
+  width: 50%;
+  /* height: 550px; */
+  margin-top: 10%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 60px;
+  border-radius: 10px;
+}
+.login-box h1{
+  font-size: 40px;
+  font-weight: 600;
+  width: 80%;
+  margin: auto;
+}
+.login-box input{
+  font-size: 20px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px;
+  height: 60px;
+}
+.login-box button{
+  display: block;
+  outline: none;
+  background-color: #c33440;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 60px;
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+}
+.form-label{
+  margin:0px auto;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  width: 80%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.SignUP{
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 24px;
+  font-weight: 500;
+  color: #c33440;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
